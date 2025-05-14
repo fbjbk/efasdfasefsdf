@@ -4,11 +4,24 @@
   <meta charset="UTF-8">
   <title>Rickroll Surprise</title>
   <meta http-equiv="refresh" content="5;url=https://tinyurl.com/2j5w73p4">
+  <style>
+    html, body {
+      margin: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
 </head>
-<body style="margin:0;">
-  <video autoplay controls style="width:100vw; height:100vh; object-fit:cover;">
-    <source src="https://shattereddisk.github.io/rickroll/rickroll.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+<body>
+  <iframe 
+    src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=1&controls=0&rel=0&showinfo=0"
+    allow="autoplay"
+    allowfullscreen>
+  </iframe>
 </body>
 </html>
